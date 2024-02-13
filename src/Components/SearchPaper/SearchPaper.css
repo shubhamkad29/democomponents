@@ -1,0 +1,73 @@
+.card-background {
+    background-color: #495057 !important;
+
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header-typo {
+    color: var(--txt-bg-lightGrey, #F8F8F8) !important;
+    font-family: "Open Sans" !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+}
+
+.card-header-margin {
+    margin-left: 50px !important;
+}
+
+.trip {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.passenger-trip {
+    color: #F8F8F8 !important;
+}
+
+.textField {
+    background-color: rgb(74, 73, 73);
+    width: 100%;
+    color: white !important;
+
+}
+
+.trip-group {
+    border-radius: 20px !important;
+    background-color: rgb(74, 73, 73);
+}
+
+.trip-typo {
+    margin-left: 5px !important;
+}
+
+.trip-button {
+    color: #F8F8F8 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 10px !important;
+}
+
+.trip-button.Mui-selected {
+    background: rgb(56, 55, 55) !important;
+}
+
+.card-header>div>div {
+    color: white !important;
+}
+
+.selectfield {
+    background: rgb(56, 55, 55) !important;
+}
+
+.selectfield>div {
+    color: white !important;
+}
